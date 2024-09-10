@@ -1,0 +1,917 @@
+{
+  "sections": {
+    "foxify_1725633415_ss_xrb_ew8LYz": {
+      "type": "foxify-1725633415SSXrb",
+      "custom_css": [
+        ".f\\:swiper-controls__inner {background-color: transparent; margin-top: 60px;}"
+      ],
+      "settings": {
+        "f-image-slide-1725633395H3tbp-image": "shopify:\/\/shop_images\/Component_2.svg",
+        "f-image-slide-1725633395H3tbp-mobile_image": "shopify:\/\/shop_images\/Group_23778.png",
+        "f-image-slide-1725633395mMJkh-image": "shopify:\/\/shop_images\/Component_2.svg",
+        "f-image-slide-1725633395mMJkh-mobile_image": "shopify:\/\/shop_images\/Group_23778.png",
+        "f-image-slide-17258934591ivFA-image": "shopify:\/\/shop_images\/Component_2.svg",
+        "f-image-slide-17258934591ivFA-mobile_image": "shopify:\/\/shop_images\/Group_23778.png"
+      }
+    },
+    "ss_feature_1_FR4T8n": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_zLUcxX": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "Frete grátis acima de R$299",
+            "feature_image": "shopify:\/\/shop_images\/Path_21269.svg",
+            "feature_url": "shopify:\/\/products\/adidas-classic-backpack",
+            "hide_image": false
+          }
+        },
+        "image_KY7nG4": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "5% de desconto no pix",
+            "feature_image": "shopify:\/\/shop_images\/Frame.svg",
+            "feature_url": "shopify:\/\/products\/dr-martens-1460z-dmc-8-eye-boot-cherry-smooth",
+            "hide_image": false
+          }
+        },
+        "image_dW3f83": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "Primeira troca grátis",
+            "feature_image": "shopify:\/\/shop_images\/Group.svg",
+            "feature_url": "shopify:\/\/collections\/kid",
+            "hide_image": false
+          }
+        },
+        "image_CWHnkk": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "Tudo em até 10x sem juros",
+            "feature_image": "shopify:\/\/shop_images\/Vector.svg",
+            "feature_url": "shopify:\/\/collections\/all",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_zLUcxX",
+        "image_KY7nG4",
+        "image_dW3f83",
+        "image_CWHnkk"
+      ],
+      "custom_css": [
+        ".box {display: flex; flex-direction: row; justify-content: center; background-color: #f5f5f5; border-radius: 8px; max-width: 300px; height: 56px;}"
+      ],
+      "settings": {
+        "feature_row": 4,
+        "feature_row_mobile": 1,
+        "feature_gap": 14,
+        "feature_gap_mobile": 8,
+        "feature_padding_vertical": 0,
+        "feature_padding_horizontal": 12,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": false,
+        "feature_heading_font": "nunito_sans_n4",
+        "feature_heading_size": 14,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 60,
+        "feature_heading_mt": 6,
+        "feature_text_custom": false,
+        "feature_text_font": "nunito_sans_n4",
+        "feature_text_size": 14,
+        "feature_text_size_mobile": 14,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 18,
+        "feature_icon_size_mobile": 20,
+        "feature_bg": "#ffffff",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#000000",
+        "feature_icon_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 8,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 3,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_qMpcaD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gXyzrh": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Canecas, blusas, relógios e  muito mais...<\/strong>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gXyzrh"
+      ],
+      "custom_css": [
+        ".rich-text__heading {font-size: 18px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "smi_collection_list_1_7_QGgMqk": {
+      "type": "smi-collection-list-1-7",
+      "blocks": {
+        "collection_YVMRU9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "subheading": "",
+            "heading": "Departamento",
+            "heading_size": "smi-h6",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_TmYdAb": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "subheading": "",
+            "heading": "Departamento",
+            "heading_size": "smi-h6",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_8tmTzD": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "subheading": "",
+            "heading": "Departamento",
+            "heading_size": "smi-h6",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_eNEkBU": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "subheading": "",
+            "heading": "Departamento",
+            "heading_size": "smi-h6",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_JeHU7j": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "subheading": "",
+            "heading": "Departamento",
+            "heading_size": "smi-h6",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_wLdtET": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "subheading": "",
+            "heading": "Departamento",
+            "heading_size": "smi-h6",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_HeBFpL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "subheading": "",
+            "heading": "Departamento",
+            "heading_size": "smi-h6",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_YF8JWg": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Group_9.png",
+            "subheading": "",
+            "heading": "Departamento",
+            "heading_size": "smi-h6",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "color_N8JYbV": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "collection_YVMRU9",
+        "collection_TmYdAb",
+        "collection_8tmTzD",
+        "collection_eNEkBU",
+        "collection_JeHU7j",
+        "collection_wLdtET",
+        "collection_HeBFpL",
+        "collection_YF8JWg",
+        "color_N8JYbV"
+      ],
+      "custom_css": [
+        "#smi-template--18448320561398__smi_collection_list_1_7_QGgMqk {max-width: 1200px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "container_full_width": false,
+        "sub_heading": "",
+        "heading": "",
+        "heading_size": "smi-h2",
+        "description": "",
+        "heading_alignment": "center",
+        "content_alignment": "center",
+        "media_ratio": "1\/1",
+        "media_shape": "round",
+        "arrow_style": "arr-style-1",
+        "sticky_page_dot_style": "none",
+        "auto_rotate_slides": false,
+        "change_slides_every": 5,
+        "number_of_columns_on_desktop": "6",
+        "number_of_columns_on_mobile": "2",
+        "slider_overflow": true,
+        "color_scheme": "scheme_1",
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "ss_feature_1_EyEU6P": {
+      "type": "ss-feature-1",
+      "blocks": {
+        "image_wkWxTb": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_EKwdjM": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_BVGEcD": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        },
+        "image_L3zgCJ": {
+          "type": "image",
+          "settings": {
+            "feature_title": "",
+            "feature_text": "",
+            "feature_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "feature_url": "",
+            "hide_image": false
+          }
+        }
+      },
+      "block_order": [
+        "image_wkWxTb",
+        "image_EKwdjM",
+        "image_BVGEcD",
+        "image_L3zgCJ"
+      ],
+      "settings": {
+        "feature_row": 4,
+        "feature_row_mobile": 1,
+        "feature_gap": 20,
+        "feature_gap_mobile": 8,
+        "feature_padding_vertical": 0,
+        "feature_padding_horizontal": 0,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": false,
+        "feature_heading_font": "josefin_sans_n4",
+        "feature_heading_size": 14,
+        "feature_heading_size_mobile": 12,
+        "feature_heading_height": 130,
+        "feature_heading_mt": 8,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 12,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 130,
+        "feature_text_mt": 4,
+        "feature_icon_size": 188,
+        "feature_icon_size_mobile": 200,
+        "feature_bg": "#ffffff",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#000000",
+        "feature_text_color": "#000000",
+        "feature_icon_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 16,
+        "padding_bottom": 16,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "rich_text_y6mEy3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QqzAXH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lançamentos",
+            "heading_size": "h2"
+          }
+        },
+        "text_tzL7wN": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QqzAXH",
+        "text_tzL7wN"
+      ],
+      "custom_css": [
+        ".h2 {font-size: 20px; font-weight: 700;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "psb_product_product_01_3QAjFx": {
+      "type": "psb-product-product-01",
+      "blocks": {
+        "product_VPAMfG": {
+          "type": "Product",
+          "settings": {
+            "product": "dr-martens-1461-dmc-3-eye-shoe-black-smooth",
+            "slide_description": ""
+          }
+        },
+        "product_FpXRhd": {
+          "type": "Product",
+          "settings": {
+            "product": "adidas-classic-backpack-legend-ink-multicolour",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_tqKNc3": {
+          "type": "Product",
+          "settings": {
+            "product": "converse-chuck-taylor-all-star-lo",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_MtnEBD": {
+          "type": "Product",
+          "settings": {
+            "product": "dr-martens-1460z-dmc-8-eye-boot-cherry-smooth",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_enNp7K": {
+          "type": "Product",
+          "settings": {
+            "product": "supra-mens-vaider",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_EgcVJD": {
+          "type": "Product",
+          "settings": {
+            "product": "nike-crackle-print-tb-tee",
+            "slide_description": "Some description text"
+          }
+        }
+      },
+      "block_order": [
+        "product_VPAMfG",
+        "product_FpXRhd",
+        "product_tqKNc3",
+        "product_MtnEBD",
+        "product_enNp7K",
+        "product_EgcVJD"
+      ],
+      "custom_css": [
+        ".item-slider__slide {border-radius: 8px; padding: 4px;}",
+        ".slide_info-name {font-size: 14px;}"
+      ],
+      "settings": {
+        "container_width": "psb-container",
+        "inherit_fonts": true,
+        "enable_boxshadow": false,
+        "heading_tag": "h3",
+        "slide_desc_font_size": 12,
+        "background_color": "rgba(0,0,0,0)",
+        "slide_bg_color": "#dddddd",
+        "slide_info_color": "#ffffff",
+        "slide_title_color": "#212a2f",
+        "slide_desc_color": "#212a2f",
+        "slider_per_view": 5,
+        "section_padding_top": 0,
+        "section_padding_bottom": 10,
+        "section_padding_top_mobile": 10,
+        "section_padding_bottom_mobile": 0
+      }
+    },
+    "rich_text_pRcM8z": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VqKn7b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ofertas Imperdíveis",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VqKn7b"
+      ],
+      "custom_css": [
+        ".h2 {font-size: 20px; font-weight: 700;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "psb_product_product_01_4GLNLk": {
+      "type": "psb-product-product-01",
+      "blocks": {
+        "product_bcQwqq": {
+          "type": "Product",
+          "settings": {
+            "product": "dr-martens-1461-dmc-3-eye-shoe-black-smooth",
+            "slide_description": ""
+          }
+        },
+        "product_dUBdCM": {
+          "type": "Product",
+          "settings": {
+            "product": "adidas-classic-backpack-legend-ink-multicolour",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_j4yKX4": {
+          "type": "Product",
+          "settings": {
+            "product": "converse-chuck-taylor-all-star-lo",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_mPQcB3": {
+          "type": "Product",
+          "settings": {
+            "product": "dr-martens-1460z-dmc-8-eye-boot-cherry-smooth",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_AXCrQ6": {
+          "type": "Product",
+          "settings": {
+            "product": "supra-mens-vaider",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_ccfEam": {
+          "type": "Product",
+          "settings": {
+            "product": "nike-crackle-print-tb-tee",
+            "slide_description": "Some description text"
+          }
+        }
+      },
+      "block_order": [
+        "product_bcQwqq",
+        "product_dUBdCM",
+        "product_j4yKX4",
+        "product_mPQcB3",
+        "product_AXCrQ6",
+        "product_ccfEam"
+      ],
+      "settings": {
+        "container_width": "psb-container",
+        "inherit_fonts": true,
+        "enable_boxshadow": false,
+        "heading_tag": "div",
+        "slide_desc_font_size": 12,
+        "background_color": "rgba(0,0,0,0)",
+        "slide_bg_color": "#dddddd",
+        "slide_info_color": "#ffffff",
+        "slide_title_color": "#212a2f",
+        "slide_desc_color": "#212a2f",
+        "slider_per_view": 5,
+        "section_padding_top": 10,
+        "section_padding_bottom": 10,
+        "section_padding_top_mobile": 10,
+        "section_padding_bottom_mobile": 50
+      }
+    },
+    "rich_text_dYLJBR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Lc4w4t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Compre por marca",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lc4w4t"
+      ],
+      "custom_css": [
+        "h2 {font-size: 20px; font-weight: 700;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "smi_collection_list_1_7_ApQbqP": {
+      "type": "smi-collection-list-1-7",
+      "blocks": {
+        "collection_7UagXk": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Frame_25.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_3RYiAw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Frame_25.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_k6ka8X": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Frame_25.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_4RCb3E": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Frame_25.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_UGqmYp": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Frame_25.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_cDHpLk": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Frame_25.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_NeaAhe": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Frame_25.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "collection_ApaCE7": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Frame_25.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "smi-h4",
+            "description": "",
+            "link": "",
+            "button_label": "",
+            "button_style": "text"
+          }
+        },
+        "color_n63aFp": {
+          "type": "color",
+          "settings": {
+            "background_color": "#ffffff",
+            "background_gradient_color": "",
+            "text_color": "#000000",
+            "subtext_color": "#000000",
+            "solid_background_button_color": "#000000",
+            "solid_button_label_color": "#ffffff",
+            "outline_button_color": "#000000",
+            "shadow_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "collection_7UagXk",
+        "collection_3RYiAw",
+        "collection_k6ka8X",
+        "collection_4RCb3E",
+        "collection_UGqmYp",
+        "collection_cDHpLk",
+        "collection_NeaAhe",
+        "collection_ApaCE7",
+        "color_n63aFp"
+      ],
+      "custom_css": [
+        "#smi-template--18448320561398__smi_collection_list_1_7_ApQbqP {max-width: 1200px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "container_full_width": true,
+        "sub_heading": "",
+        "heading": "",
+        "heading_size": "smi-h4",
+        "description": "",
+        "heading_alignment": "left",
+        "content_alignment": "center",
+        "media_ratio": "auto",
+        "media_shape": "default",
+        "arrow_style": "arr-style-2",
+        "sticky_page_dot_style": "none",
+        "auto_rotate_slides": false,
+        "change_slides_every": 5,
+        "number_of_columns_on_desktop": "6",
+        "number_of_columns_on_mobile": "2",
+        "slider_overflow": true,
+        "color_scheme": "scheme_1",
+        "padding_top": 12,
+        "padding_bottom": 22
+      }
+    },
+    "psb_product_product_01_WpaYYM": {
+      "type": "psb-product-product-01",
+      "blocks": {
+        "product_mTYacA": {
+          "type": "Product",
+          "settings": {
+            "product": "dr-martens-1461-dmc-3-eye-shoe-black-smooth",
+            "slide_description": ""
+          }
+        },
+        "product_refWqc": {
+          "type": "Product",
+          "settings": {
+            "product": "adidas-classic-backpack-legend-ink-multicolour",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_9MWBtp": {
+          "type": "Product",
+          "settings": {
+            "product": "converse-chuck-taylor-all-star-lo",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_7K4wfW": {
+          "type": "Product",
+          "settings": {
+            "product": "dr-martens-1460z-dmc-8-eye-boot-cherry-smooth",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_Q4rKeP": {
+          "type": "Product",
+          "settings": {
+            "product": "supra-mens-vaider",
+            "slide_description": "Some description text"
+          }
+        },
+        "product_ctCLBg": {
+          "type": "Product",
+          "settings": {
+            "product": "nike-crackle-print-tb-tee",
+            "slide_description": "Some description text"
+          }
+        }
+      },
+      "block_order": [
+        "product_mTYacA",
+        "product_refWqc",
+        "product_9MWBtp",
+        "product_7K4wfW",
+        "product_Q4rKeP",
+        "product_ctCLBg"
+      ],
+      "settings": {
+        "container_width": "psb-container",
+        "inherit_fonts": true,
+        "enable_boxshadow": false,
+        "heading_tag": "div",
+        "slide_desc_font_size": 12,
+        "background_color": "rgba(0,0,0,0)",
+        "slide_bg_color": "#dddddd",
+        "slide_info_color": "#ffffff",
+        "slide_title_color": "#212a2f",
+        "slide_desc_color": "#212a2f",
+        "slider_per_view": 5,
+        "section_padding_top": 10,
+        "section_padding_bottom": 10,
+        "section_padding_top_mobile": 50,
+        "section_padding_bottom_mobile": 50
+      }
+    },
+    "rich_text_pxrPnH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dUjp6y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem Ipsum dolor sit amet",
+            "heading_size": "h2"
+          }
+        },
+        "text_ngMJxV": {
+          "type": "text",
+          "settings": {
+            "text": "<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt tempor leo a eleifend. Aenean eget lacus convallis, vehicula nulla non, feugiat elit. Vivamus aliquam, nulla et vestibulum tincidunt, diam tellus aliquam dui, quis consectetur purus risus vitae justo. Duis arcu risus, vulputate sed nisl nec, mollis ultrices risus. Curabitur eget iaculis ante, et lacinia est. Duis ac libero eget enim rhoncus feugiat. Donec auctor odio mauris, in sagittis tortor condimentum condimentum<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dUjp6y",
+        "text_ngMJxV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    }
+  },
+  "order": [
+    "foxify_1725633415_ss_xrb_ew8LYz",
+    "ss_feature_1_FR4T8n",
+    "rich_text_qMpcaD",
+    "smi_collection_list_1_7_QGgMqk",
+    "ss_feature_1_EyEU6P",
+    "rich_text_y6mEy3",
+    "psb_product_product_01_3QAjFx",
+    "rich_text_pRcM8z",
+    "psb_product_product_01_4GLNLk",
+    "rich_text_dYLJBR",
+    "smi_collection_list_1_7_ApQbqP",
+    "psb_product_product_01_WpaYYM",
+    "rich_text_pxrPnH"
+  ]
+}

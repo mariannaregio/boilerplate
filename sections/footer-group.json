@@ -1,0 +1,216 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter_gamLJR": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_PiBEHR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cadastre-se na nossa newsletter",
+            "heading_size": "h2"
+          }
+        },
+        "email_form_Hq4jKQ": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_PiBEHR",
+        "email_form_Hq4jKQ"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "design_pack_footer_free_kmJR8A": {
+      "type": "design_pack_-_footer-free",
+      "blocks": {
+        "column_HrP6bY": {
+          "type": "column",
+          "settings": {
+            "column_width": "fourth"
+          }
+        },
+        "inset_image_yAKtBL": {
+          "type": "inset_image",
+          "settings": {
+            "inset_image": "shopify:\/\/shop_images\/logo_avanti.svg",
+            "image_crop": "none",
+            "inset_image_size": 50,
+            "image_alignment": "default",
+            "link": "",
+            "external_link": false
+          }
+        },
+        "social_icons_cycRbR": {
+          "type": "social_icons",
+          "settings": {
+            "icon_size": 20,
+            "twitter": "",
+            "tiktok": "tiktok.com",
+            "youtube": "youtube.com",
+            "facebook": "facebook.com",
+            "instagram": "instagram.com",
+            "spotify": "",
+            "tumblr": "",
+            "pinterest": "",
+            "linkedin": "",
+            "snapchat": "",
+            "whatsapp": ""
+          }
+        },
+        "column_KXM9yJ": {
+          "type": "column",
+          "settings": {
+            "column_width": "fourth"
+          }
+        },
+        "links_8R9Pnd": {
+          "type": "links",
+          "settings": {
+            "title": "Institucional",
+            "menu": "institucional"
+          }
+        },
+        "column_ifBnGF": {
+          "type": "column",
+          "settings": {
+            "column_width": "fourth"
+          }
+        },
+        "links_7XGdbV": {
+          "type": "links",
+          "settings": {
+            "title": "Central de ajuda",
+            "menu": "central-de-ajuda"
+          }
+        },
+        "column_BmVQGW": {
+          "type": "column",
+          "settings": {
+            "column_width": "fourth"
+          }
+        },
+        "heading_r4UHba": {
+          "type": "heading",
+          "settings": {
+            "title": "Atendimento",
+            "block_heading_color": "",
+            "block_heading_size": "16",
+            "enable_custom_font": false,
+            "custom_font": "nunito_sans_n4",
+            "heading_level": "h4"
+          }
+        },
+        "text_VeiqgA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Telefone:<\/strong> (00) 1234-5678<\/p><p><strong>Email:<\/strong> exemplo@exemplo.com<\/p><p><strong>Horário de atendimento:<\/strong><\/p><p>Segunda a Sábado: 07h00 às 23h00<\/p><p>Domingos e Feriados:  07h00 às 21h00<\/p>",
+            "block_text_color": ""
+          }
+        },
+        "column_7TMN7T": {
+          "type": "column",
+          "settings": {
+            "column_width": "full"
+          }
+        },
+        "inset_image_a6AyAb": {
+          "type": "inset_image",
+          "settings": {
+            "inset_image": "shopify:\/\/shop_images\/Grupo_10397.svg",
+            "image_crop": "none",
+            "inset_image_size": 50,
+            "image_alignment": "default",
+            "link": "",
+            "external_link": false
+          }
+        }
+      },
+      "block_order": [
+        "column_HrP6bY",
+        "inset_image_yAKtBL",
+        "social_icons_cycRbR",
+        "column_KXM9yJ",
+        "links_8R9Pnd",
+        "column_ifBnGF",
+        "links_7XGdbV",
+        "column_BmVQGW",
+        "heading_r4UHba",
+        "text_VeiqgA",
+        "column_7TMN7T",
+        "inset_image_a6AyAb"
+      ],
+      "custom_css": [
+        ".dsgn-pck__dp-perma-link {display: none;}"
+      ],
+      "settings": {
+        "gap": 0,
+        "row_gap": 30,
+        "text_size": 80,
+        "text_alignment": "center",
+        "text_color": "#121212",
+        "background_color": "#f5f5f5",
+        "border_style": "sides",
+        "border_width": 0,
+        "border_color": "#ffffff",
+        "enable_parallax": false,
+        "animation": "none",
+        "base_width": 95,
+        "max_width": "1400px",
+        "match_padding": false,
+        "inner_padding": 40,
+        "bottom_padding": 40,
+        "match_margin": true,
+        "outer_margin": 40,
+        "bottom_margin": 0,
+        "custom_css": ".dsgn-pck__grid-column--1 {\nmargin-top: 16px;\n}\n\n.dsgn-pck__social-icons  {\nmargin-top: 16px;\n}",
+        "mobile_custom_css": "",
+        "override_theme_font": false,
+        "heading_font": "nunito_sans_n4",
+        "main_font": "nunito_sans_n4"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_xjWzNy": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_xjWzNy"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "newsletter_gamLJR",
+    "design_pack_footer_free_kmJR8A",
+    "footer"
+  ]
+}
