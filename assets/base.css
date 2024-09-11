@@ -1158,7 +1158,7 @@ deferred-media {
 
 .button--secondary,
 .button--tertiary {
-  --color-button: var(--color-secondary-button);
+  --color-button: blue;
   --color-button-text: var(--color-secondary-button-text);
 }
 
@@ -1190,7 +1190,8 @@ button.shopify-payment-button__button--unbranded,
 .customer button,
 button.shopify-payment-button__button--unbranded {
   min-width: calc(12rem + var(--buttons-border-width) * 2);
-  min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+  height: 40px;
+  /* min-height: calc(4.5rem + var(--buttons-border-width) * 2); */
 }
 
 .shopify-payment-button__button--branded {
@@ -1299,7 +1300,7 @@ button.shopify-payment-button__button--unbranded {
 .button-label,
 .shopify-challenge__button,
 .customer button {
-  font-size: 1.5rem;
+  font-size: 14px;
   letter-spacing: 0.1rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
 }

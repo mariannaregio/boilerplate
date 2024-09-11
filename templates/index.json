@@ -65,7 +65,7 @@
         "image_CWHnkk"
       ],
       "custom_css": [
-        ".box {display: flex; flex-direction: row; justify-content: center; background-color: #f5f5f5; border-radius: 8px; max-width: 300px; height: 56px;}"
+        ".box {max-width: 1260 display: flex; flex-direction: row; justify-content: center; background-color: #f5f5f5; border-radius: 8px; height: 56px;}"
       ],
       "settings": {
         "feature_row": 4,
@@ -105,7 +105,7 @@
         "padding_top": 16,
         "padding_bottom": 8,
         "padding_horizontal": 0,
-        "padding_horizontal_mobile": 3,
+        "padding_horizontal_mobile": 1,
         "full_width": false,
         "content_width": 120,
         "border_thickness": 0,
@@ -138,169 +138,100 @@
         "padding_bottom": 20
       }
     },
-    "smi_collection_list_1_7_QGgMqk": {
-      "type": "smi-collection-list-1-7",
+    "custom_banners_row_q96pUE": {
+      "type": "custom-banners-row",
       "blocks": {
-        "collection_YVMRU9": {
-          "type": "collection",
+        "banner_kMz8xU": {
+          "type": "banner",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "subheading": "",
-            "heading": "Departamento",
-            "heading_size": "smi-h6",
-            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Group_9.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_9.png",
             "link": "",
-            "button_label": "",
-            "button_style": "text"
+            "alt_text": ""
           }
         },
-        "collection_TmYdAb": {
-          "type": "collection",
+        "banner_JqQ7Qb": {
+          "type": "banner",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "subheading": "",
-            "heading": "Departamento",
-            "heading_size": "smi-h6",
-            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Group_9.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_9.png",
             "link": "",
-            "button_label": "",
-            "button_style": "text"
+            "alt_text": ""
           }
         },
-        "collection_8tmTzD": {
-          "type": "collection",
+        "banner_bw4YqM": {
+          "type": "banner",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "subheading": "",
-            "heading": "Departamento",
-            "heading_size": "smi-h6",
-            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Group_9.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_9.png",
             "link": "",
-            "button_label": "",
-            "button_style": "text"
+            "alt_text": ""
           }
         },
-        "collection_eNEkBU": {
-          "type": "collection",
+        "banner_EaEzpr": {
+          "type": "banner",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "subheading": "",
-            "heading": "Departamento",
-            "heading_size": "smi-h6",
-            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Group_9.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_9.png",
             "link": "",
-            "button_label": "",
-            "button_style": "text"
+            "alt_text": ""
           }
         },
-        "collection_JeHU7j": {
-          "type": "collection",
+        "banner_A3Fbgb": {
+          "type": "banner",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "subheading": "",
-            "heading": "Departamento",
-            "heading_size": "smi-h6",
-            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Group_9.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_9.png",
             "link": "",
-            "button_label": "",
-            "button_style": "text"
+            "alt_text": ""
           }
         },
-        "collection_wLdtET": {
-          "type": "collection",
+        "banner_Kg6Jrd": {
+          "type": "banner",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "subheading": "",
-            "heading": "Departamento",
-            "heading_size": "smi-h6",
-            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Group_9.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_9.png",
             "link": "",
-            "button_label": "",
-            "button_style": "text"
+            "alt_text": ""
           }
         },
-        "collection_HeBFpL": {
-          "type": "collection",
+        "banner_9rQeWr": {
+          "type": "banner",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "subheading": "",
-            "heading": "Departamento",
-            "heading_size": "smi-h6",
-            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Group_9.png",
             "link": "",
-            "button_label": "",
-            "button_style": "text"
+            "alt_text": ""
           }
         },
-        "collection_YF8JWg": {
-          "type": "collection",
+        "banner_ztpMPD": {
+          "type": "banner",
           "settings": {
-            "collection": "",
-            "image": "shopify:\/\/shop_images\/Group_9.png",
-            "subheading": "",
-            "heading": "Departamento",
-            "heading_size": "smi-h6",
-            "description": "",
+            "desktop_image": "shopify:\/\/shop_images\/Group_9.png",
             "link": "",
-            "button_label": "",
-            "button_style": "text"
-          }
-        },
-        "color_N8JYbV": {
-          "type": "color",
-          "settings": {
-            "background_color": "#ffffff",
-            "background_gradient_color": "",
-            "text_color": "#000000",
-            "subtext_color": "#000000",
-            "solid_background_button_color": "#000000",
-            "solid_button_label_color": "#ffffff",
-            "outline_button_color": "#000000",
-            "shadow_color": "#000000"
+            "alt_text": ""
           }
         }
       },
       "block_order": [
-        "collection_YVMRU9",
-        "collection_TmYdAb",
-        "collection_8tmTzD",
-        "collection_eNEkBU",
-        "collection_JeHU7j",
-        "collection_wLdtET",
-        "collection_HeBFpL",
-        "collection_YF8JWg",
-        "color_N8JYbV"
+        "banner_kMz8xU",
+        "banner_JqQ7Qb",
+        "banner_bw4YqM",
+        "banner_EaEzpr",
+        "banner_A3Fbgb",
+        "banner_Kg6Jrd",
+        "banner_9rQeWr",
+        "banner_ztpMPD"
       ],
       "custom_css": [
-        "#smi-template--18448320561398__smi_collection_list_1_7_QGgMqk {max-width: 1200px; margin: 0 auto;}"
+        ".banner-row {margin: 0 auto;}",
+        "@media (max-width: 768px) {.banner-row {display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr); } .banner-item {display: flex; justify-content: center; align-items: center; } .banner-item img {width: 108px; }}"
       ],
       "settings": {
-        "container_full_width": false,
-        "sub_heading": "",
-        "heading": "",
-        "heading_size": "smi-h2",
-        "description": "",
-        "heading_alignment": "center",
-        "content_alignment": "center",
-        "media_ratio": "1\/1",
-        "media_shape": "round",
-        "arrow_style": "arr-style-1",
-        "sticky_page_dot_style": "none",
-        "auto_rotate_slides": false,
-        "change_slides_every": 5,
-        "number_of_columns_on_desktop": "6",
-        "number_of_columns_on_mobile": "2",
-        "slider_overflow": true,
-        "color_scheme": "scheme_1",
-        "padding_top": 8,
-        "padding_bottom": 8
+        "container_padding": "10px",
+        "mobile_padding": "5px",
+        "desktop_gap": "5px",
+        "mobile_gap": "5px",
+        "max_width": "1200px"
       }
     },
     "ss_feature_1_EyEU6P": {
@@ -445,35 +376,35 @@
           "type": "Product",
           "settings": {
             "product": "adidas-classic-backpack-legend-ink-multicolour",
-            "slide_description": "Some description text"
+            "slide_description": ""
           }
         },
         "product_tqKNc3": {
           "type": "Product",
           "settings": {
             "product": "converse-chuck-taylor-all-star-lo",
-            "slide_description": "Some description text"
+            "slide_description": ""
           }
         },
         "product_MtnEBD": {
           "type": "Product",
           "settings": {
             "product": "dr-martens-1460z-dmc-8-eye-boot-cherry-smooth",
-            "slide_description": "Some description text"
+            "slide_description": ""
           }
         },
         "product_enNp7K": {
           "type": "Product",
           "settings": {
             "product": "supra-mens-vaider",
-            "slide_description": "Some description text"
+            "slide_description": ""
           }
         },
         "product_EgcVJD": {
           "type": "Product",
           "settings": {
             "product": "nike-crackle-print-tb-tee",
-            "slide_description": "Some description text"
+            "slide_description": ""
           }
         }
       },
@@ -486,8 +417,7 @@
         "product_EgcVJD"
       ],
       "custom_css": [
-        ".item-slider__slide {border-radius: 8px; padding: 4px;}",
-        ".slide_info-name {font-size: 14px;}"
+
       ],
       "settings": {
         "container_width": "psb-container",
@@ -496,15 +426,62 @@
         "heading_tag": "h3",
         "slide_desc_font_size": 12,
         "background_color": "rgba(0,0,0,0)",
-        "slide_bg_color": "#dddddd",
+        "slide_bg_color": "rgba(0,0,0,0)",
         "slide_info_color": "#ffffff",
-        "slide_title_color": "#212a2f",
-        "slide_desc_color": "#212a2f",
+        "slide_title_color": "#303030",
+        "slide_desc_color": "#303030",
         "slider_per_view": 5,
         "section_padding_top": 0,
         "section_padding_bottom": 10,
         "section_padding_top_mobile": 10,
         "section_padding_bottom_mobile": 0
+      }
+    },
+    "custom_banners_row_EqPJpj": {
+      "type": "custom-banners-row",
+      "blocks": {
+        "banner_TJ3bpn": {
+          "type": "banner",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Frame_155.png",
+            "mobile_image": "shopify:\/\/shop_images\/Frame_155.svg",
+            "link": "shopify:\/\/products\/palladium-pallatech-hi-tx-chevron",
+            "alt_text": ""
+          }
+        },
+        "banner_h4ncWp": {
+          "type": "banner",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "mobile_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "link": "shopify:\/\/products\/adidas-superstar-80s",
+            "alt_text": ""
+          }
+        },
+        "banner_6NcBJG": {
+          "type": "banner",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "mobile_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "link": "shopify:\/\/collections\/adidas",
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "banner_TJ3bpn",
+        "banner_h4ncWp",
+        "banner_6NcBJG"
+      ],
+      "custom_css": [
+        ".banner-row {margin: 0 auto;}"
+      ],
+      "settings": {
+        "container_padding": "10px",
+        "mobile_padding": "5px",
+        "desktop_gap": "5px",
+        "mobile_gap": "5px",
+        "max_width": "1260px"
       }
     },
     "rich_text_pRcM8z": {
@@ -546,36 +523,36 @@
         "product_dUBdCM": {
           "type": "Product",
           "settings": {
-            "product": "adidas-classic-backpack-legend-ink-multicolour",
-            "slide_description": "Some description text"
+            "product": "flex-fit-mini-ottoman-black",
+            "slide_description": ""
           }
         },
         "product_j4yKX4": {
           "type": "Product",
           "settings": {
-            "product": "converse-chuck-taylor-all-star-lo",
-            "slide_description": "Some description text"
+            "product": "palladium-pallatech-hi-tx-chevron",
+            "slide_description": ""
           }
         },
         "product_mPQcB3": {
           "type": "Product",
           "settings": {
-            "product": "dr-martens-1460z-dmc-8-eye-boot-cherry-smooth",
-            "slide_description": "Some description text"
+            "product": "herschel-iona",
+            "slide_description": ""
           }
         },
         "product_AXCrQ6": {
           "type": "Product",
           "settings": {
-            "product": "supra-mens-vaider",
-            "slide_description": "Some description text"
+            "product": "nike-swoosh-pro-flat-peak-cap",
+            "slide_description": ""
           }
         },
         "product_ccfEam": {
           "type": "Product",
           "settings": {
             "product": "nike-crackle-print-tb-tee",
-            "slide_description": "Some description text"
+            "slide_description": ""
           }
         }
       },
@@ -587,6 +564,9 @@
         "product_AXCrQ6",
         "product_ccfEam"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "container_width": "psb-container",
         "inherit_fonts": true,
@@ -594,7 +574,7 @@
         "heading_tag": "div",
         "slide_desc_font_size": 12,
         "background_color": "rgba(0,0,0,0)",
-        "slide_bg_color": "#dddddd",
+        "slide_bg_color": "rgba(0,0,0,0)",
         "slide_info_color": "#ffffff",
         "slide_title_color": "#212a2f",
         "slide_desc_color": "#212a2f",
@@ -802,43 +782,43 @@
         "product_mTYacA": {
           "type": "Product",
           "settings": {
-            "product": "dr-martens-1461-dmc-3-eye-shoe-black-smooth",
+            "product": "vans-apparel-and-accessories-classic-super-no-show-socks-3-pack-white",
             "slide_description": ""
           }
         },
         "product_refWqc": {
           "type": "Product",
           "settings": {
-            "product": "adidas-classic-backpack-legend-ink-multicolour",
-            "slide_description": "Some description text"
+            "product": "vans-era-59-moroccan-geo-dress-blues",
+            "slide_description": ""
           }
         },
         "product_9MWBtp": {
           "type": "Product",
           "settings": {
-            "product": "converse-chuck-taylor-all-star-lo",
-            "slide_description": "Some description text"
+            "product": "vans-era-59-desert-cowboy",
+            "slide_description": ""
           }
         },
         "product_7K4wfW": {
           "type": "Product",
           "settings": {
-            "product": "dr-martens-1460z-dmc-8-eye-boot-cherry-smooth",
-            "slide_description": "Some description text"
+            "product": "vans-sh-8-hi",
+            "slide_description": ""
           }
         },
         "product_Q4rKeP": {
           "type": "Product",
           "settings": {
-            "product": "supra-mens-vaider",
-            "slide_description": "Some description text"
+            "product": "vans-authentic-lo-pro-burgandy-white",
+            "slide_description": ""
           }
         },
         "product_ctCLBg": {
           "type": "Product",
           "settings": {
-            "product": "nike-crackle-print-tb-tee",
-            "slide_description": "Some description text"
+            "product": "vans-authentic-multi-eyelets-gradient-crimson",
+            "slide_description": ""
           }
         }
       },
@@ -857,7 +837,7 @@
         "heading_tag": "div",
         "slide_desc_font_size": 12,
         "background_color": "rgba(0,0,0,0)",
-        "slide_bg_color": "#dddddd",
+        "slide_bg_color": "rgba(0,0,0,0)",
         "slide_info_color": "#ffffff",
         "slide_title_color": "#212a2f",
         "slide_desc_color": "#212a2f",
@@ -897,21 +877,80 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "custom_banners_row_bqjaFV": {
+      "type": "custom-banners-row",
+      "blocks": {
+        "banner_b3dHXb": {
+          "type": "banner",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "mobile_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "link": "shopify:\/\/products\/adidas-classic-backpack",
+            "alt_text": ""
+          }
+        },
+        "banner_g9QwWF": {
+          "type": "banner",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "mobile_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "link": "shopify:\/\/products\/adidas-classic-backpack",
+            "alt_text": ""
+          }
+        },
+        "banner_9qVimC": {
+          "type": "banner",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "mobile_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "link": "shopify:\/\/products\/adidas-classic-backpack",
+            "alt_text": ""
+          }
+        },
+        "banner_TAEVwd": {
+          "type": "banner",
+          "settings": {
+            "desktop_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "mobile_image": "shopify:\/\/shop_images\/Frame_150.png",
+            "link": "shopify:\/\/products\/adidas-classic-backpack",
+            "alt_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "banner_b3dHXb",
+        "banner_g9QwWF",
+        "banner_9qVimC",
+        "banner_TAEVwd"
+      ],
+      "custom_css": [
+        ".banner-row {margin: 0 auto;}"
+      ],
+      "settings": {
+        "container_padding": "10px",
+        "mobile_padding": "5px",
+        "desktop_gap": "5px",
+        "mobile_gap": "5px",
+        "max_width": "1200px"
+      }
     }
   },
   "order": [
     "foxify_1725633415_ss_xrb_ew8LYz",
     "ss_feature_1_FR4T8n",
     "rich_text_qMpcaD",
-    "smi_collection_list_1_7_QGgMqk",
+    "custom_banners_row_q96pUE",
     "ss_feature_1_EyEU6P",
     "rich_text_y6mEy3",
     "psb_product_product_01_3QAjFx",
+    "custom_banners_row_EqPJpj",
     "rich_text_pRcM8z",
     "psb_product_product_01_4GLNLk",
     "rich_text_dYLJBR",
     "smi_collection_list_1_7_ApQbqP",
     "psb_product_product_01_WpaYYM",
-    "rich_text_pxrPnH"
+    "rich_text_pxrPnH",
+    "custom_banners_row_bqjaFV"
   ]
 }

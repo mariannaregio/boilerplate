@@ -113,7 +113,6 @@
     }
     #psb-{{ section.id }} .slide_info {
       background-color: {{section.settings.slide_info_color}};
-      padding: 18px;
     }
     #psb-{{ section.id }} .slider-links {
       text-decoration: none;
@@ -123,9 +122,11 @@
       color: {{section.settings.slide_title_color}};
       margin:0;
       padding-bottom: 2px;
+      min-height: 40px;
       {% if section.settings.inherit_fonts == false %}
         font-size: 20px;
       {% endif %}
+  
     }
 
     #psb-{{ section.id }} .slide_info-description {
@@ -137,6 +138,26 @@
       margin-top: 6px;
       margin:0;
     }
+
+    .slider-links {
+      display: flex;
+      flex-direction: column;
+      min-height: 310px;
+      justify-content: space-between;
+      border: 1px solid #DDDDDD;
+      border-radius: 8px;
+      padding: 8px;
+    }
+
+    .slide_info-name {
+      display: -webkit-box;
+      -webkit-line-clamp: 2; 
+      -webkit-box-orient: vertical;
+      overflow: hidden; 
+      text-overflow: ellipsis;
+      font-size: 14px;
+    }
+
 
     /* Media */
     @media screen and (max-width: 767px) {
@@ -160,10 +181,15 @@
 {%- endcapture -%}
 {{ minify | strip_newlines }}
 
-<div id="psb-{{ section.id }}" class="psb-{{ section.id }} psb-section psb-collection-collection-01" style="display: none;">
+<div
+  id="psb-{{ section.id }}"
+  class="psb-{{ section.id }} psb-section psb-collection-collection-01"
+  style="display: none;"
+>
   <div class="{{ section.settings.container_width }}">
     <div class="wrapper" style="overflow:hidden">
-      <psb-swiper data-config='
+      <psb-swiper
+        data-config='
           {
             "navigation": {
                 "nextEl": "#psb-{{ section.id }} .swiper-button-next",
@@ -185,11 +211,11 @@
             "breakpoints": {
               "320": {
                   "spaceBetween": 15,
-                  "slidesPerView": 1.1
+                  "slidesPerView": 2
               },
               "768": {
                   "spaceBetween": 20,
-                  "slidesPerView": 2.2
+                  "slidesPerView": 3
               },
               "992": {
                   "spaceBetween": 30,
@@ -197,7 +223,8 @@
               }
             }
           }
-        '>
+        '
+      >
         <div class="slider-{{section.id}} item-slider swiper-container swiper" style="overflow:visible">
           <div class="item-slider__wrapper swiper-wrapper">
             {%- for block in section.blocks -%}
@@ -222,6 +249,12 @@
                         Product Title
                       {% endif %}
                     </{{ section.settings.heading_tag }}>
+                    {% assign product = block.settings.product %}
+                    {% render 'price', product: product %}
+                    {% assign product_form_id = 'ProductForm-' | append: block.id %}
+                    <div class="buy-button-container" style="height: 40px;">
+                      {% render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true %}
+                    </div>
                     <p class="slide_info-description">{{ block.settings.slide_description }}</p>
                   </div>
                 {% endcapture %}

@@ -11,17 +11,28 @@
             "text": "Ganhe R$10,00 de desconto no seu primeiro pedido. Utilize o cupom DESCONTO10",
             "link": ""
           }
+        },
+        "announcement_z9QUjp": {
+          "type": "announcement",
+          "settings": {
+            "text": "Frete grátis em compras acima de R$ 299",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_z9QUjp"
+      ],
+      "custom_css": [
+        ".slider-button {display: none;}"
       ],
       "settings": {
         "color_scheme": "scheme-5",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "enable_country_selector": false,
         "enable_language_selector": false
       }

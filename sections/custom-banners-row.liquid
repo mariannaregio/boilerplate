@@ -1,0 +1,261 @@
+{% comment %}
+    {
+      "name": "Banners em linha",
+      "settings": [],
+      "blocks": [
+        {
+          "type": "banner",
+          "name": "Banner",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Imagem do banner"
+            },
+            {
+              "type": "url",
+              "id": "link",
+              "label": "Link do banner"
+            },
+            {
+              "type": "text",
+              "id": "alt_text",
+              "label": "Texto alternativo"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Banners em linha",
+          "category": "Custom",
+          "blocks": [
+            {
+              "type": "banner"
+            },
+            {
+              "type": "banner"
+            }
+          ]
+        }
+      ]
+    }
+    {% endschema %}
+
+    <div class="banner-row">
+      {% for block in section.blocks %}
+        <div class="banner-item">
+          {% if block.settings.image %}
+            {% assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio %}
+            {% if block.settings.link %}
+              <a href="{{ block.settings.link }}">
+            {% endif %}
+              <img
+                src="{{ block.settings.image | image_url: width: 3840 }}"
+                alt="{{ block.settings.alt_text }}"
+                width="{{ block.settings.image.width }}"
+                height="{{ image_height }}"
+                class="banner__media-image"
+                sizes="(min-width: 1200px) 33vw, 100vw"
+                fetchpriority="high"
+              >
+            {% if block.settings.link %}
+              </a>
+            {% endif %}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <style>
+      .banner-row {
+        display: flex;
+      }
+
+      .banner-item {
+        padding: 10px;
+      }
+
+      .banner-item img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      @media (max-width: 768px) {
+    .banner-row {
+      flex-direction: column; /* Alinha os banners em coluna */
+    }
+
+    .banner-item {
+      padding: 5px 0; /* Ajuste o padding conforme necessário */
+    }
+
+    .banner-item img {
+      height: auto; /* Ajuste a altura para ser automática em dispositivos móveis */
+      width: 100%; /* Faz com que a imagem ocupe toda a largura do container */
+    }
+  }
+    </style>
+{% endcomment %}
+
+{% schema %}
+{
+  "name": "Banners em linha",
+  "settings": [
+    {
+      "type": "text",
+      "id": "container_padding",
+      "label": "Padding desktop",
+      "default": "10px"
+    },
+    {
+      "type": "text",
+      "id": "mobile_padding",
+      "label": "Padding mobile",
+      "default": "5px"
+    },
+    {
+      "type": "text",
+      "id": "desktop_gap",
+      "label": "Gap desktop",
+      "default": "5px"
+    },
+    {
+      "type": "text",
+      "id": "mobile_gap",
+      "label": "Gap mobile",
+      "default": "5px"
+    },
+    {
+      "type": "text",
+      "id": "max_width",
+      "label": "Container max width",
+      "default": "1200px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "banner",
+      "name": "Banner",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "desktop_image",
+          "label": "Imagem do banner para desktop"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_image",
+          "label": "Imagem do banner para mobile"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link do banner"
+        },
+        {
+          "type": "text",
+          "id": "alt_text",
+          "label": "Texto alternativo"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banners em linha",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "banner"
+        },
+        {
+          "type": "banner"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<div class="banner-row">
+  {% for block in section.blocks %}
+    <div class="banner-item">
+      {% assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio %}
+      {% if block.settings.link %}
+        <a href="{{ block.settings.link }}">
+      {% endif %}
+
+      <!-- Imagem para Desktop -->
+      {% if block.settings.desktop_image %}
+        <img
+          src="{{ block.settings.desktop_image | image_url: width: 3840 }}"
+          alt="{{ block.settings.alt_text }}"
+          width="{{ block.settings.image.width }}"
+          height="{{ image_height }}"
+          class="banner__media-image banner__media-image--desktop"
+          sizes="(min-width: 1200px) 33vw, 100vw"
+          fetchpriority="high"
+        >
+      {% endif %}
+
+      <!-- Imagem para Mobile -->
+      {% if block.settings.mobile_image %}
+        <img
+          src="{{ block.settings.mobile_image | image_url: width: 768 }}"
+          alt="{{ block.settings.alt_text }}"
+          width="{{ block.settings.image.width }}"
+          height="{{ image_height }}"
+          class="banner__media-image banner__media-image--mobile"
+          sizes="100vw"
+          fetchpriority="high"
+        >
+      {% endif %}
+
+      {% if block.settings.link %}
+        </a>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .banner-row {
+    display: flex;
+    padding: {{ section.settings.desktop_padding }};
+    gap: {{ section.settings.desktop_gap }};
+    max-width: {{ section.settings.max_width}};
+  }
+
+  .banner-item {
+    padding: 10px;
+  }
+
+  .banner-item img {
+    max-width: 100%;
+  }
+
+  .banner__media-image--mobile {
+    display: none; 
+  }
+
+  @media (max-width: 768px) {
+    .banner-row {
+      flex-direction: column;
+      gap: {{ section.settings.mobile_gap }};
+      padding: {{ section.settings.mobile_padding }};
+      margin: 0 auto;
+    }
+
+    .banner__media-image--desktop {
+      display: none; 
+    }
+
+    .banner__media-image--mobile {
+      display: block; 
+      width: 100%;
+      height: auto;
+    }
+  }
+</style>
+
